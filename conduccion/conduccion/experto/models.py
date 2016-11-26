@@ -3,10 +3,10 @@
 from __future__ import unicode_literals
 
 from django.db import models
-# from imp import reload
-# import sys
-# reload(sys)
-# sys.setdefaultencoding('utf8')
+from imp import reload
+import sys
+reload(sys)
+sys.setdefaultencoding('utf8')
 # Create your models here.
 
 class FieldType(models.Model):
